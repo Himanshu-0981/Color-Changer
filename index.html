@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Color Changer</title>
-
 </head>
-<body>
-    <div id="color-switcher">
-        <span class="btn" id="white" onclick="changeBg('#ffffff')"></span>
-        <span class="btn" id="green"  onclick="changeBg('#00ff00')"></span>
-        <span class="btn" id="yellow"   onclick="changeBg('#FFFF00')"></span>
-        <span class="btn btn2" id="black" onclick="changeBg('#000000')"></span>
-    </div>
 
-    <h1 class="text">About Us</h1>
-    <img src="https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300" alt="">
-    <p class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, error veritatis obcaecati voluptatibus, alias eveniet, ipsum dolore vero quisquam dicta laborum quasi eius cumque blanditiis animi perspiciatis. Aliquid facere distinctio, doloribus recusandae fugit quod. Consequuntur, facilis. Illo delectus, quibusdam expedita quia incidunt iusto laboriosam ea earum nulla cumque unde, quae voluptas perspiciatis nesciunt fugit quaerat et excepturi? Iste aliquid dignissimos ad ducimus ex excepturi voluptatum, dolore inventore, libero asperiores rem eum nobis vel ab. Error, totam labore quo minima temporibus, assumenda culpa voluptates aperiam laborum quasi voluptas, modi animi optio quos tempora sed deleniti dolores. Earum natus aut repellendus nostrum sapiente odio doloremque accusamus veritatis sed! Odio quod, earum, repellat asperiores, sint similique perspiciatis nihil a ipsa odit facere animi ab tempora. Magni id dignissimos molestiae voluptates nemo corporis architecto. Praesentium sequi similique aperiam voluptatibus quam, minus rerum. Vitae omnis consequatur dicta ipsam voluptatem officia accusantium in nemo rerum sint atque corporis quod dignissimos nam quam dolore, deleniti magni autem est laborum velit nisi? Explicabo corporis nam possimus perferendis eos dolore ab aspernatur consectetur fuga tempora officiis minus, dolorum exercitationem, ipsum enim dignissimos nisi, harum reprehenderit! In, distinctio quo culpa nostrum, recusandae doloremque dolores sint nemo sed laboriosam ullam rem. Accusantium autem facere earum eveniet, consectetur ut voluptate dicta ipsa facilis consequatur. Non, eaque beatae soluta tenetur facilis ut illo quasi labore deserunt! Odio minima mollitia dolor! Numquam ipsum rem, esse laboriosam perferendis inventore eum nisi facere, quaerat, similique a labore doloremque! Molestias in cumque earum excepturi nostrum fugiat placeat? Magni sunt corporis ducimus rerum, explicabo expedita odit hic consequuntur iure. Consequatur magni non nobis sed ratione ullam fugit optio praesentium adipisci perferendis, iure similique excepturi ea tempora totam impedit? Quaerat necessitatibus ut provident harum sunt temporibus dolorum, alias asperiores a beatae suscipit animi ipsam nesciunt distinctio nostrum iure accusamus. Adipisci doloribus debitis officiis tenetur fugit velit veniam! Repellendus at vel veritatis architecto itaque earum harum facilis saepe ipsa recusandae fuga consectetur officiis obcaecati, accusamus aliquid dolorem ipsam ut maxime nulla odio? Et nulla vitae quasi, nisi fuga nihil, corrupti placeat aperiam est cum repellendus dolore minima inventore. Tempora ratione libero dicta dolore aut, fuga sit porro, quisquam numquam dolores minima delectus praesentium vel iusto debitis laborum, nam quae nulla nihil excepturi repellendus maiores. Eaque blanditiis consequuntur, sequi accusamus illo quo cupiditate quis necessitatibus totam, recusandae ad, quisquam repudiandae accusantium exercitationem! Eligendi animi error fugit provident quis inventore praesentium dolorum, nemo quaerat repellendus aliquam, quo distinctio dolor vero sit obcaecati quod fugiat doloribus maiores optio suscipit accusantium possimus. Architecto cupiditate unde, voluptatem velit iure provident aspernatur labore. Placeat veritatis dolorum recusandae officia dignissimos sed sapiente, quasi incidunt tempore nisi, est saepe excepturi iste magnam aperiam adipisci sunt suscipit consequuntur culpa id corrupti voluptas debitis dolorem assumenda? Accusantium, iste. Architecto modi atque quos quibusdam assumenda sint magnam doloremque minima et nihil. Rerum, necessitatibus nam ipsam officiis ullam velit nesciunt modi commodi in illo porro veritatis, labore non mollitia sit laborum! Similique voluptatem unde sapiente dolore suscipit corrupti minus ipsam officia vitae?
-    </p>
+<body>
+    <div class="container">
+        <h1>PICK ONE COLOR</h1>
+
+        <span class="color" id="cream" onclick="colorChange('#fffdd0')"></span>
+        <span class="color" id="green" onclick="colorChange('#00ff00')"></span>
+        <span class="color" id="yellow" onclick="colorChange('#FFFF00')"></span>
+        <span class="color" id="aqua" onclick="colorChange('#00FFFF')"></span>
+        <span class="color" id="black" onclick="colorChange('#000000')"></span>
+        <div id="output-box"></div>
+        <div id="color-output-name">Not color choosen yet</div>
+        <div class="color-code-below">Color code Below</div>
+        <div id="color-output-code"></div>
+    </div>
 
         <script src="script.js"> </script>
 

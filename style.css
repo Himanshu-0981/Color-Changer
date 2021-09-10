@@ -1,48 +1,75 @@
-body{
-    margin: 0px;
-    padding: 10px 100px;
-}
-h1{
+.container {
     text-align: center;
+    padding-top: 30px;
 }
 
-img{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-
-p{
-    font-size: 18px;
-    text-align: justify;
-}
-
-.btn{
-    width: 20px;
-    height: 20px;
+.color {
+    height: 50px;
+    width: 50px;
     display: inline-block;
     border-radius: 50%;
     cursor: pointer;
-    border: 1px solid rgb(165, 160, 160);
+    border: 1px solid black;
 }
 
-.btn .btn2{
-    border: 1px solid white;
+#cream {
+    background-color: wheat;
 }
 
-#white{
-    background-color: rgb(255, 255, 255);
+#cream:hover {
+    background-color: rgb(189, 172, 140);
 }
-#green{
-    background-color: green;
+
+#green {
+    background-color: greenyellow;
 }
-#yellow{
+
+#green:hover {
+    background-color: rgb(77, 151, 67);
+    transition: 0.5s;
+}
+
+#yellow {
     background-color: yellow;
 }
-#black{
+
+#yellow:hover {
+    background-color: rgb(184, 184, 39);
+    transition: 0.5s;
+}
+
+#aqua {
+    background-color: aqua;
+}
+
+#aqua:hover {
+    background-color: rgb(10, 160, 160);
+    transition: 0.5s;
+}
+
+#black {
     background-color: black;
 }
 
-#color-switcher{
-    text-align: right;
+#black:hover {
+    background-color: rgb(44, 44, 44);
+    transition: 0.5srgb (39, 37, 37);
+}
+
+#output-box {
+    height: 200px;
+    width: auto;
+    margin-top: 40px;
+    margin-right: 40%;
+    margin-left: 40%;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+#color-output-name {
+    padding-top: 30px;
+}
+
+.color-code-below {
+    padding-top: 30px;
 }
